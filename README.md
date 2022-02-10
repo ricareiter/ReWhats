@@ -27,7 +27,7 @@ Made with HTML, CSS and Javascript. ReWhats is a website to optimize your WhatsA
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ricareiter/tip-calculator/issues).
+Feel free to check the [issues page](https://github.com/ricareiter/ReWhats/issues).
 
 ## Show your support
 
