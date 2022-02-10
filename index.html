@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <title>ReWhats</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" src="assets/rewhatslogo.png" />
+      </a>
+      <!-- NAV SECTION -->
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">How it Works</a></li>
+          <li><a class="main-nav-link" href="#features">Features</a></li>
+          <li><a class="main-nav-link" href="#price">Pricing</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="login-signup">
+        <a href="#" class="btn-login"
+          ><ion-icon name="lock-closed" class="icon"></ion-icon> Log In</a
+        >
+        <a href="#" class="btn--signup">Sign Up</a>
+      </div>
+    </header>
+    <main>
+      <!-- HERO SECTION -->
+
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Redefine your customer service strategy and leverage your results
+            </h1>
+            <p class="hero-description">
+              Optimize your WhatsApp messaging campaign, reach your customers
+              and grow your business.
+            </p>
+            <form class="cta" action="#">
+              <input
+                type="email"
+                id="email"
+                placeholder="name@work.mail"
+                required
+              />
+              <a href="#" class="btn">start free trial</a>
+            </form>
+            <p class="terms-agreement">
+              You agree to our Terms of Service, Privacy Policy. No credit card
+              required.
+            </p>
+          </div>
+          <div class="hero-img-box">
+            <img src="assets/hero-img-2.png" class="hero-img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS SECTION -->
+
+      <section class="section-how" id="how">
+        <div class="how-it-works-header">
+          <p class="how-it-works-title-p">Easy to work with</p>
+          <h2 class="how-it-works-title">How It Works</h2>
+        </div>
+        <div class="container-step">
+          <div class="step-img-box">
+            <img src="assets/list-of-contacts-2.png" class="step-img" />
+          </div>
+          <div class="step-text-box">
+            <div class="number">
+              <p class="step-number">1</p>
+            </div>
+            <div class="text">
+              <h3 class="step-title">Create a List of Contacts</h3>
+              <p class="step-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                voluptas aut non magnam saepe.Quam voluptas aut non magnam
+                saepe.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container-step container-step-2">
+          <div class="step-text-box step-text-box-2">
+            <div class="number">
+              <p class="step-number">2</p>
+            </div>
+            <div class="text">
+              <h3 class="step-title">Send Your Message</h3>
+              <p class="step-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                voluptas aut non magnam saepe.
+              </p>
+            </div>
+          </div>
+          <div class="step-img-box">
+            <img src="assets/send-message.png" class="step-img" />
+          </div>
+        </div>
+        <div class="container-step">
+          <div class="step-img-box">
+            <img src="assets/analyse-data.png" class="step-img" />
+          </div>
+          <div class="step-text-box">
+            <div class="number">
+              <p class="step-number">3</p>
+            </div>
+            <div class="text">
+              <h3 class="step-title">Analyse Data</h3>
+              <p class="step-text">
+                Collecting customer feedback and reviews can not only help you
+                identify areas of improvement for your business, but it can also
+                help grow your brand recognition and credibility in the
+                marketplace.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FEATURES SECTION -->
+
+      <section class="features" id="features">
+        <div class="features-title">
+          <p class="features-title-p">Increase conversions and revenue</p>
+          <h2 class="features-h2">Features</h2>
+        </div>
+        <div class="features-container">
+          <div class="custom-displays">
+            <ion-icon
+              name="settings-outline"
+              class="icon-features icon-1"
+            ></ion-icon>
+            <h3 class="features-head">Custom Displays</h3>
+            <p class="features-text">
+              Choose from among 10 templates or adjust them to create an
+              efficient way to work.
+            </p>
+            <a href="#" class="link btn">Learn More</a>
+          </div>
+          <div class="custom-displays">
+            <ion-icon
+              name="options-outline"
+              class="icon-features icon-2"
+            ></ion-icon>
+            <h3 class="features-head">Dashboard</h3>
+            <p class="features-text">
+              Monitor the status of every subscription and track all your sales.
+            </p>
+            <a href="#" class="link btn">Learn More</a>
+          </div>
+          <div class="custom-displays">
+            <ion-icon
+              name="checkmark-done-outline"
+              class="icon-features icon-3"
+            ></ion-icon>
+            <h3 class="features-head">Read Tracking</h3>
+            <p class="features-text">
+              Provide information on messages being delivered and read.
+            </p>
+            <a href="#" class="link btn">Learn More</a>
+          </div>
+          <div class="custom-displays">
+            <ion-icon
+              name="people-outline"
+              class="icon-features icon-4"
+            ></ion-icon>
+            <h3 class="features-head">Contact Groups</h3>
+            <p class="features-text">Organize your contacts into groups.</p>
+            <a href="#" class="link btn">Learn More</a>
+          </div>
+          <div class="custom-displays">
+            <ion-icon
+              name="stats-chart-outline"
+              class="icon-features icon-5"
+            ></ion-icon>
+            <h3 class="features-head">Analytics</h3>
+            <p class="features-text">
+              Analyze all your data for insights and trends.
+            </p>
+            <a href="#" class="link btn">Learn More</a>
+          </div>
+          <div class="custom-displays">
+            <ion-icon
+              name="alert-outline"
+              class="icon-features icon-6"
+            ></ion-icon>
+            <h3 class="features-head">Message Alerts</h3>
+            <p class="features-text">
+              Get notified when you have an unread massage.
+            </p>
+            <a href="#" class="link btn">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <!-- PRICE SECTION -->
+
+      <section class="section-price" id="price">
+        <div class="price-title">
+          <p class="price-p">Get More With Premium</p>
+          <h2 class="price-h2">Plans & Prices</h2>
+        </div>
+        <div class="price-container">
+          <div class="price-plan plan-starter">
+            <header class="plan-header">
+              <ion-icon class="icon-top" name="logo-whatsapp"></ion-icon>
+              <p class="plan-name">Starter</p>
+              <p class="plan-price"><span>$</span>25.00/mo</p>
+              <p class="plan-text">+ applicabe taxes</p>
+            </header>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn-price">Get Started</a>
+            </div>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>No ads</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Live support</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Data analysis tools</span>
+              </li>
+              <li class="list-item item-not-included">
+                <ion-icon
+                  class="list-icon list-icon-not-included"
+                  name="close-outline"
+                ></ion-icon>
+                <span>Export data to a CSV file</span>
+              </li>
+              <li class="list-item item-not-included">
+                <ion-icon
+                  class="list-icon list-icon-not-included"
+                  name="close-outline"
+                ></ion-icon>
+                <span>Plugin integrations</span>
+              </li>
+            </ul>
+          </div>
+          <div class="price-plan plan-premium">
+            <header class="plan-header">
+              <ion-icon class="icon-top" name="logo-whatsapp"></ion-icon>
+              <p class="plan-name">Premium</p>
+              <p class="plan-price"><span>$</span>40.00/mo</p>
+              <p class="plan-text">+ applicabe taxes</p>
+            </header>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn-price">Get Started</a>
+            </div>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>No ads</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Live support</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Data analysis tools</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Export data to a CSV file</span>
+              </li>
+              <li class="list-item item-not-included">
+                <ion-icon
+                  class="list-icon list-icon-not-included"
+                  name="close-outline"
+                ></ion-icon>
+                <span>Plugin integrations</span>
+              </li>
+            </ul>
+          </div>
+          <div class="price-plan plan-ultimate">
+            <header class="plan-header">
+              <ion-icon class="icon-top" name="logo-whatsapp"></ion-icon>
+              <p class="plan-name">Ultimate</p>
+              <p class="plan-price"><span>$</span>50.00/mo</p>
+              <p class="plan-text">+ applicabe taxes</p>
+            </header>
+            <div class="plan-sign-up">
+              <a href="#" class="btn btn-price">Get Started</a>
+            </div>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>No ads</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Live support</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Data analysis tools</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Export data to a CSV file</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Plugin integrations</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIALS SECTION -->
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-title">
+          <p class="testimonials-subtitle">Checkout what users are saying</p>
+          <h2 class="testimonials-h2">Client Testimonials</h2>
+        </div>
+        <div class="testimonials-container">
+          <blockquote class="testimonial">
+            <p class="testimonial-text">
+              We needed some direction on how to implement our ideas and ReWhats
+              has helped us to put these ideas into real action allowing us to
+              expand our operational capacity and future sales opportunities.
+            </p>
+            <img src="assets/avatar-1.jpg" class="testimonial-img" />
+            <div class="testimonial-footer">
+              <p class="testimonial-author">Robert Woolverton</p>
+              <p class="testimonial-job">Senior Infrastructure Officer</p>
+            </div>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p class="testimonial-text">
+              If you want real marketing that works and effective implementation
+              - ReWhats got you covered. Thank you so much for your help. We
+              have no regrets! Thanks ReWhats!
+            </p>
+            <img src="assets/avatar-2.jpg" class="testimonial-img" />
+            <div class="testimonial-footer">
+              <p class="testimonial-author">Susan Bunch</p>
+              <p class="testimonial-job">Senior Product Manager</p>
+            </div>
+          </blockquote>
+          <blockquote class="testimonial">
+            <p class="testimonial-text">
+              It fits our needs perfectly. I STRONGLY recommend ReWhats to
+              EVERYONE interested in running a successful online business!
+              ReWhats impressed me on multiple levels.
+            </p>
+            <img src="assets/avatar-3.jpg" class="testimonial-img" />
+            <div class="testimonial-footer">
+              <p class="testimonial-author">Julie Moorman</p>
+              <p class="testimonial-job">Regional Creative Manager</p>
+            </div>
+          </blockquote>
+        </div>
+        <div class="dots">
+          <button class="dot fill">&nbsp;</button>
+          <button class="dot">&nbsp;</button>
+          <button class="dot">&nbsp;</button>
+          <button class="dot">&nbsp;</button>
+        </div>
+      </section>
+      <!-- FEATURED SECTION -->
+      <section class="section-featured">
+        <div class="featured-container">
+          <h2 class="featured-title">Trusted By Brands</h2>
+          <p class="featured-p">
+            Lots of companies put their trust in site when it comes to web
+            services and consultations. Here are a few of our trusted clients.
+          </p>
+          <div class="logos">
+            <img class="featured-img" src="assets/Logo-1.png" />
+            <img class="featured-img" src="assets/Logo-2.png" />
+            <img class="featured-img" src="assets/Logo-3.png" />
+            <img class="featured-img" src="assets/Logo-4.png" />
+            <img class="featured-img" src="assets/Logo-5.png" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container-footer">
+        <nav class="nav-col">
+          <p class="footer-heading">Product</p>
+          <ul class="footer-nav">
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Features</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Integrations</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Pricing</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Customer stories</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">System status</a></li>
+            <hr class="hr-footer" />
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">API Reference</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Roadmap</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Blog</a></li>
+            <hr class="hr-footer" />
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Use Cases</p>
+          <ul class="footer-nav">
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Remote Hiring</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Engagement at scale</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Asynchronous meetings</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">User generated content</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Learning & development</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Virtual training</a></li>
+            <hr class="hr-footer" />
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">About</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Terms & conditions</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">Privacy Policy</a></li>
+            <hr class="hr-footer" />
+            <li><a class="footer-link" href="#">GDRP</a></li>
+            <hr class="hr-footer" />
+          </ul>
+        </nav>
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo-footer" src="assets/rewhatslogofooter.png" />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="copyright-text">
+          <p>
+            Global on-demand Whatsapp multi-message software, communication and
+            marketing platform by site
+          </p>
+          <p>
+            site are trading names of site Technologies ltd. Registered Scotland
+            No. SC601085.
+          </p>
+        </div>
+        <div class="copyright-logos">
+          <img class="secure-logo" src="assets/copyright-logo-1.png" />
+          <img class="secure-logo" src="assets/copyright-logo-2.png" />
+        </div>
+      </div>
+    </footer>
+    <div class="modal hidden">
+      <button class="btn-close-modal">&times;</button>
+      <h2 class="modal-header">Create Account</h2>
+      <form class="modal-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+        <label for="mail">E-mail</label>
+        <input type="email" id="mail" />
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+        <button class="btn">Create Account</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
