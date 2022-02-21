@@ -35,7 +35,7 @@ Feel free to check the [issues page](https://github.com/ricareiter/ReWhats/issue
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project
 
 ## 📝 License
 
