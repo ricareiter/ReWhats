@@ -100,21 +100,23 @@ body {
 /**********************/
 
 .section-hero {
+  max-width: 140rem;
+  grid-template-columns: 1fr 1fr;
   padding: 4.8rem 0 9.6rem 0;
   margin-bottom: 5rem;
+  margin: 0 auto;
 }
 
 .hero {
-  min-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
   display: grid;
-  grid-template-columns: 7fr 6fr;
+  grid-template-columns: 6fr 6fr;
   gap: 8rem;
 }
 
 .hero-text-box {
-  padding-left: 25rem;
+  padding-left: 3rem;
   padding-right: 3rem;
   padding-top: 4rem;
 }
@@ -191,14 +193,13 @@ body {
 }
 
 .hero-img {
-  width: 60%;
+  width: 480px;
 }
 
 /**********************/
 /* HOW IT WORKS */
 /**********************/
 .section-how {
-  min-width: 120rem;
   margin-bottom: 20rem;
 }
 
@@ -224,7 +225,7 @@ body {
 .container-step {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 100rem;
+  max-width: 55%;
   margin: 0 auto;
 }
 
@@ -642,7 +643,6 @@ body {
 /**********************/
 
 .section-featured {
-  max-width: 130rem;
   margin: 20rem auto;
 }
 
@@ -762,7 +762,7 @@ body {
 .copyright-text {
   margin-top: 7rem;
   font-size: 1.5rem;
-  text-align: center;
+  text-align: left;
 }
 
 .copyright-logos {
@@ -853,4 +853,214 @@ body {
   grid-column: 1 / span 2;
   justify-self: center;
   margin-top: 3rem;
+}
+
+/**********************/
+/* MEDIA QUERIES */
+/**********************/
+
+/* Extra large devices */
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero-img {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .hero-img {
+    width: 360px;
+  }
+
+  .copyright-text {
+    text-align: left;
+  }
+
+  .secure-logo {
+    width: 13rem;
+    height: 13rem;
+  }
+}
+
+/* Large devices */
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 50%;
+  }
+
+  .secure-logo {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  html {
+    font-size: 45%;
+  }
+
+  .hero-img {
+    width: 320px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .hero-img {
+    width: 320px;
+  }
+
+  .container-footer {
+    grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
+  }
+
+  .secure-logo {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+/* Medium devices */
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 40%;
+  }
+
+  .hero-img {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 40%;
+  }
+
+  .main-nav-list {
+    gap: 6rem;
+  }
+
+  .heading-primary {
+    font-size: 6rem;
+  }
+
+  .hero-img {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .heading-primary {
+    font-size: 4.5rem;
+  }
+
+  .hero-img {
+    width: 210px;
+  }
+
+  .main-nav-list {
+    gap: 4rem;
+  }
+}
+
+/* Small devices */
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+
+  .header {
+    padding: 0 1rem;
+  }
+
+  .hero {
+    gap: 2rem;
+  }
+
+  .hero-img {
+    width: 200px;
+  }
+
+  .secure-logo {
+    width: 9rem;
+    height: 9rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .heading-primary {
+    font-size: 4.3rem;
+  }
+
+  .hero-img {
+    width: 180px;
+  }
+
+  .featured-img {
+    height: 2.8rem;
+  }
+
+  .container-footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 30%;
+  }
+
+  .btn-login,
+  .btn--signup {
+    width: 12rem;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+  }
+
+  .hero-img {
+    width: 160px;
+  }
+
+  .hero {
+    gap: 6rem;
+  }
+}
+
+/* Extra small devices */
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .hero-img {
+    width: 150px;
+  }
+
+  .hero {
+    gap: 4rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  html {
+    font-size: 25%;
+  }
+
+  .hero-img {
+    width: 130px;
+  }
+
+  .main-nav-list {
+    gap: 2rem;
+  }
+
+  .container-footer {
+    grid-template-columns: 1fr 1fr 1.5fr 1fr 0.5fr;
+  }
 }
