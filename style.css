@@ -201,6 +201,8 @@ body {
 /**********************/
 .section-how {
   margin-bottom: 20rem;
+  background-color: #fafafc;
+  border-radius: 20%;
 }
 
 .how-it-works-header {
