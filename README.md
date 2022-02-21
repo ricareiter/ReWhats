@@ -21,11 +21,7 @@ Made with HTML, CSS and Javascript. ReWhats is a website to optimize your WhatsA
 **Ricardo Reiter**
 
 - GitHub: [@ricareiter](https://github.com/ricareiter)
-<<<<<<< HEAD
 - Linkedin [Ricardo Reiter](https://www.linkedin.com/in/ricardoreiter/)
-=======
-- Linkedin: [Ricardo Reiter](https://www.linkedin.com/in/ricardoreiter/)
->>>>>>> 27d3a3b7f81b1d57f183bb60d6244cf581dd35d3
 
 ## 🤝 Contributing
 
@@ -35,7 +31,7 @@ Feel free to check the [issues page](https://github.com/ricareiter/ReWhats/issue
 
 ## Show your support
 
-Give a ⭐️ if you like this project
+Give a ⭐️ if you like this project!
 
 ## 📝 License
 
