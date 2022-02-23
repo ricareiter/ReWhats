@@ -1066,3 +1066,50 @@ body {
     grid-template-columns: 1fr 1fr 1.5fr 1fr 0.5fr;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .hero-img {
+    width: 110px;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hero-img {
+    width: 100px;
+  }
+
+  .heading-primary {
+    font-size: 3.5rem;
+  }
+
+  .hero {
+    gap: 0;
+  }
+
+  .main-nav-list {
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-img {
+    width: 0;
+  }
+
+  .logo {
+    height: 3rem;
+  }
+
+  .header {
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 0 1rem;
+  }
+}
