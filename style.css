@@ -1131,4 +1131,24 @@ body {
   html {
     font-size: 18%;
   }
+
+  .featured-img {
+    height: 2.8rem;
+  }
+}
+
+@media only screen and (max-width: 223px) {
+  html {
+    font-size: 16%;
+  }
+}
+
+@media only screen and (max-width: 195px) {
+  .header {
+    grid-template-columns: 0.5fr 3fr 1fr;
+  }
+
+  .featured-img {
+    height: 2rem;
+  }
 }
