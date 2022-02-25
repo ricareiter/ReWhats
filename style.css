@@ -1113,3 +1113,22 @@ body {
     padding: 0 1rem;
   }
 }
+
+@media only screen and (max-width: 300px) {
+  html {
+    font-size: 20%;
+  }
+}
+
+@media only screen and (max-width: 270px) {
+  .plan-premium::after {
+    top: 4%;
+    right: -44%;
+  }
+}
+
+@media only screen and (max-width: 242px) {
+  html {
+    font-size: 18%;
+  }
+}
