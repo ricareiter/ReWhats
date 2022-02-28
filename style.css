@@ -1152,3 +1152,9 @@ body {
     height: 2rem;
   }
 }
+
+@media only screen and (max-width: 180px) {
+  html {
+    font-size: 14%;
+  }
+}
